@@ -5,7 +5,7 @@ j = int(input())
 
 def up_letters(ptr):
     '''
-
+    checking for upper elements
     :param ptr: string input
     :return: True if string is upper, False if it is not
     '''
