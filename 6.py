@@ -11,7 +11,7 @@ def res_func(func):
         :return: result of function with single param
         '''
         res = func(sing_arg)
-        return res
+        print(res)
     return wrapped
 
 @res_func
@@ -26,5 +26,5 @@ def checked_a(word):
     return 0
 
 
-print(checked_a('Mama'))
+checked_a('Mama')
 
